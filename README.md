@@ -8,7 +8,14 @@ A simple Java application designed to help students organize and keep track of t
 
 I personally often struggle to keep track of assignments from different courses and their individual deadlines, which I think is a problem shared by a lot of students. When the assignments are given to us through different sources, maybe verbally or on different platforms, collecting all of it into an organized tracker app would make our quality of life better
 
-I am going to build a simple Assignment Tracker. The aim is for students to be able to enter an assignment with its details. The application will display incomplete assignments sorted by the deadline days. Students will be allowed to mark assignments as completed, and for now, the assignments can be removed once they pass their deadlines, after a notification. Assignments should also be saved so they remain available when reopened.
+## MVP Features
+
+- Add assignments with a course name, assignment name, and due date.
+- Display all incomplete assignments.
+- Automatically sort assignments by closest deadline.
+- Allow users to mark assignments as completed.
+- Automatically remove assignments starting the day after their deadline.
+- Save assignments so they remain available after closing and reopening the application.
 
 ## Tech Stack
 
